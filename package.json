@@ -1,0 +1,28 @@
+{
+  "name": "l5-adv-2026-jul-l5-adv-mission-2-munishk686",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Replace me with an introduction to the project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mission-Ready/l5-adv-2026-jul-l5-adv-mission-2-munishk686.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mission-Ready/l5-adv-2026-jul-l5-adv-mission-2-munishk686/issues"
+  },
+  "homepage": "https://github.com/Mission-Ready/l5-adv-2026-jul-l5-adv-mission-2-munishk686#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
+
