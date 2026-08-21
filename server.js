@@ -1,7 +1,7 @@
 import express from "express";
 import carValue from "./tests/api-1/carValue.js";
-//const express = require("express");
-//const carValue = require("./tests/api-1/carValue");
+import quoteCalc from "./Test_api3/quoteCalc.js";
+
 const app = express();
 
 app.use(express.json());
@@ -12,7 +12,7 @@ app.post("/api-1", (req, res) => {
   try {
     const value = carValue(model, year);
 
-    res.json({
+    res.status(200).json({
       car_value: value
     });
   } catch (error) {
@@ -22,5 +22,12 @@ app.post("/api-1", (req, res) => {
   }
 });
 
+app.post("/api/3", (req, res) => {
+  const { car_value, car_risk } = req.body;
+
+  const result = quoteCalc(car_value, car_risk);
+
+  res.json(result);
+});
+
 export default app;
-//module.exports = app;
