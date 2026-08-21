@@ -1,4 +1,5 @@
-const carValue = require("./carValue");
+//const carValue = require("./carValue");
+import carValue from "./carValue.js";
 
 test("Civic from 2014 should have a value of 6614", () => {
   expect(carValue("Civic", 2014)).toBe(6614);

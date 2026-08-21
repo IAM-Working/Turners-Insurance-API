@@ -33,4 +33,5 @@ function carValue(model, year) {
   return totalValue * 100 + year;
 }
 
-module.exports = carValue;
+export default carValue;
+//module.exports = carValue;

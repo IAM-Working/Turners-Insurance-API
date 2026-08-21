@@ -1,6 +1,7 @@
 {
   "name": "l5-adv-2026-jul-l5-adv-mission-2-munishk686",
   "version": "1.0.0",
+  "type": "module",
   "description": "Replace me with an introduction to the project.",
   "main": "index.js",
   "scripts": {
