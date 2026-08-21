@@ -8,7 +8,7 @@ describe("POST /api-1", () => {
       .post("/api-1")
       .send({
         model: "Civic",
-        year: 2014
+        year: "2014"
       });
 
     expect(response.statusCode).toBe(200);
