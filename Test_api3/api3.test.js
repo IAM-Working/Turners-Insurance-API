@@ -1,4 +1,5 @@
-const quoteCalc = require('./quoteCalc')
+//const quoteCalc = require('./quoteCalc')
+import quoteCalc from './quoteCalc.js'
 
 test('QouteCalc Correct Test', () => {
     const result = quoteCalc(3000, 3)

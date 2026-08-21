@@ -1,7 +1,6 @@
 import request from "supertest";
 import app from "./server.js";
-//const request = require("supertest");
-//const app = require("./server");
+
 
 describe("POST /api-1", () => {
   test("should return car value for Civic 2014", async () => {

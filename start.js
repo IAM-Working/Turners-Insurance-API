@@ -1,5 +1,4 @@
 import app from "./server.js";
-//const app = require("./server");
 
 const PORT = 5000;
 
