@@ -1,11 +1,10 @@
 {
   "name": "l5-adv-2026-jul-l5-adv-mission-2-munishk686",
   "version": "1.0.0",
-  "type": "module",
   "description": "Replace me with an introduction to the project.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +21,7 @@
     "express": "^5.2.1"
   },
   "devDependencies": {
-    "jest": "^30.4.2"
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
   }
 }
-
