@@ -1,6 +1,7 @@
-
-const express = require("express");
-const carValue = require("./tests/api-1/carValue");
+import express from "express";
+import carValue from "./tests/api-1/carValue.js";
+//const express = require("express");
+//const carValue = require("./tests/api-1/carValue");
 const app = express();
 
 app.use(express.json());
@@ -21,4 +22,5 @@ app.post("/api-1", (req, res) => {
   }
 });
 
-module.exports = app;
+export default app;
+//module.exports = app;
