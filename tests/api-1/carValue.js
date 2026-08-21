@@ -6,12 +6,13 @@ function carValue(model, year) {
   if (year === undefined) {
     throw new Error("Year is required");
   }
-  if (typeof model !== "string" && typeof model !== "number") {
-    throw new Error("Model must be a string and year must be a number");
-  }
+   if (typeof model !== "string") {
+  throw new Error("Model must be a string");
+}
   if (typeof year !== "number") {
     throw new Error("Year must be a number");
   }
+ 
   let totalValue = 0;
 
   const ASCII_LOWERCASE_OFFSET = 96;
