@@ -1,22 +1,27 @@
 # Level 5 ADV Mission 2 Readme
 
-Replace me with an introduction to the project.
+A backend API project developed using Node.js and Express. The project includes API functions, calculations and automated testing using Jest and Supertest.
 
 ## Installation
 
-Replace me with the package manager you are using.
-
-Explaining how to install the project.
+Clone the repository and install the dependencies:
 
 ```bash
+cd: MissionReady\l5-adv-2026-jul-l5-adv-mission-2-munishk686
 npm install
-npm start
+npm test
 ```
 
-## More Details
+## Technologies
+Node.js
+Expess
+Jest 
+Supertest
+JavaScript
 
-Replace me with more details about the project.
 
 ## Contributors
 
-Replace me with the contributors of the project and their GitHub profiles.
+Munish Kumar
+Jack Cheng
+Isaiah Marchenko
